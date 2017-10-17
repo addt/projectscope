@@ -37,7 +37,7 @@ module NavigationHelpers
       when /^the "iteration dashboard" page/ then
         pending
       when /^the "instructor dashboard" page/ then
-        '/projects'
+        pending
       # Add more mappings here.
       # Here is an example that pulls values out of the Regexp:
       #
