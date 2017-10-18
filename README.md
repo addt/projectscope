@@ -3,7 +3,7 @@
 
 ### TeamScope
 [Overall README](./iterations/README.md)
-#### CodeClimate badge showing project's current GPA
+#### CodeClimate badge showing project's current GPAA
  [![Maintainability](https://api.codeclimate.com/v1/badges/0fc061899e0596b63f9f/maintainability)](https://codeclimate.com/github/PeijieLi/projectscope/maintainability)
 #### Code Climate badge showing percent code coverage
  [![Test Coverage](https://codeclimate.com/github/PeijieLi/projectscope/badges/coverage.svg)](https://codeclimate.com/github/PeijieLi/projectscope)
