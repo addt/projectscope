@@ -1,0 +1,53 @@
+{
+  "scripts": {},
+  "env": {
+    "attr_encrypted_key": {
+      "required": true
+    },
+    "GITHUB_ACCESS_TOKEN": {
+      "required": true
+    },
+    "github_app_id": {
+      "required": true
+    },
+    "github_app_secret": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "PROJECTSCOPE_PASSWORD": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "RAILS_ENV": {
+      "required": true
+    },
+    "RAILS_SERVE_STATIC_FILES": {
+      "required": true
+    },
+    "SECRET_KEY_BASE": {
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql",
+    "scheduler"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "stack": "cedar-14"
+}
